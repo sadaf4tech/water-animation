@@ -14,25 +14,28 @@ body{
 .cup{
     width: 200px;
     height:220px;
+    
     border: 6px solid #fff;
     border-top: 2px solid transparent;
     border-radius: 15px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    
     box-shadow: 0 0 0 6px #fff , 0 20px 35px rgba(0,0,0,1);
 
     background: url(https://image.ibb.co/fmHm66/wave.png);
     background-repeat: repeat-x;
+    
     animation: animate 10s linear infinite;
 
 }
 .handle{
     position: relative;
-    transform: translate(150px,-20px);
-    height: 120px;
-    width: 90px;
     right: -45px;
     top:50px;
+    
+    transform: translate(150px,-20px);
+    
     border: 6px solid #fff;
     border-top-right-radius:50% ;
     border-bottom-right-radius:50% ;
